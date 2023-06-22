@@ -5,8 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Carousal</title>
     <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <h2 class="bg-blue-900 text-white">Image Carousal</h2>
+  
+       <div class="swiper mySwiper w-96 h-96">
+        <div class="swiper-wrapper flex">
+          <div class="swiper-slide flex items-center justify-center">
+            <img class="w-80" src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          </div>
+          <div class="swiper-slide flex items-center justify-center">
+            <img class="w-80" src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </div>
+          <div class="swiper-slide flex items-center justify-center">
+            <img class="w-80" src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </div>
+          <div class="swiper-slide flex items-center justify-center">
+            <img class="w-80" src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </div>
+          <div class="swiper-slide flex items-center justify-center">
+            <img class="w-80" src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          </div>
+          <div class="swiper-slide flex items-center justify-center">
+            <img class="w-80" src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper mySwiper2 mt-9">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide w-96 h-96">Slide 1
+            <img src="./images/img1.jpeg" alt="img">
+          </div>
+          <div class="swiper-slide w-96 h-96">Slide 2
+            <img src="./images/img2.jpeg" alt="img">
+          </div>
+          <div class="swiper-slide w-96 h-96">Slide 3
+            <img src="./images/img3.jpg" alt="img">
+          </div>
+         
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
 </body>
 </html>
