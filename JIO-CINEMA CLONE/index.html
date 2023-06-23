@@ -1,19 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jio Cinema Clone</title>
-    <link rel="stylesheet" href="./dist/output.css">
-</head>
-<body class="bg-black text-white">
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="./sliderstyle.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="bg-black text-white">
     <!-- Header section starts -->
-    <header class="w-full max-w-[1440px] py-9 flex items-center px-6 mx-auto">
-       <img src="./images/jc_logo.svg" alt="logo">
-        <h3 class="font-bold text-2xl px-3">JioCinema</h3>
-        <div class="py-2 px-4 border-solid border-2 border-yellow-500 rounded-3xl">
-            <p class="text-yellow-500 text-sm font-bold">Subscribe</p>
-        </div>
+    <header
+      class="max-w-[1440px] py-3 flex items-center text-center px-3 media890:px-6"
+    >
+      <img
+        src="./images/jc_logo.svg"
+        class="w-6 media890:w-12 cursor-pointer"
+        alt="logo"
+      />
+      <h3 class="font-bold text-sm media890:text-2xl px-3">JioCinema</h3>
+      <div
+        class="py-1 media890:py-2 px-3 media890:px-4 border-solid border-2 border-yellow-500 rounded-3xl cursor-pointer"
+      >
+        <p class="text-yellow-500 text-sm font-bold">Subscribe</p>
+      </div>
+      <div
+        class="py-2 px-4 ml-2 border-solid border-2 border-white rounded-3xl media890:block hidden cursor-pointer"
+      >
+        <p class="text-white text-sm font-bold cursor-pointer">For You</p>
+      </div>
+      <div class="py-2 px-4 ml-2 media890:block hidden cursor-pointer">
+        <p class="text-white text-sm font-bold">Sports</p>
+      </div>
+      <div class="py-2 px-4 ml-2 media890:block hidden cursor-pointer">
+        <p class="text-white text-sm font-bold">Free</p>
+      </div>
+      <div class="py-2 px-4 ml-2 media890:block hidden cursor-pointer">
+        <p class="text-white text-sm font-bold">Premium</p>
+      </div>
+
+      <div
+        class="px-2 py-4 cursor-pointer border-2 border-gray-500 rounded-3xl media890:block hidden"
+      >
+        <input
+          type="search"
+          class="text-white w-40 bg-transparent font-bold"
+          placeholder="Search"
+        />
+      </div>
+      <img
+        src="./images/Vector (1).svg"
+        class="cursor-pointer relative right-5 media890:block hidden"
+        alt="img"
+      />
+      <img
+        src="./images/profile_avatar.svg"
+        class="cursor-pointer w-12 ml-1 pl-3 media890:block hidden"
+        alt="img"
+      />
+      <img
+        src="./images/search (1).svg"
+        class="inline-block media890:hidden pl-5"
+        alt="img"
+      />
     </header>
-</body>
+    <!-- Header section ends -->
+    <!-- Hero section starts -->
+    <section class="w-full">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="title" data-swiper-parallax="-300">Asur 2</div>
+            <button class="btn">Watch</button>
+            <img src="./images/asur2.jpg" alt="img" />
+          </div>
+
+          <div class="swiper-slide">
+            <div class="title" data-swiper-parallax="-300">Bloody Daddy</div>
+            <button class="btn">Watch</button>
+            <img src="./images/img2.jpg" alt="img" />
+          </div>
+          <div class="swiper-slide">
+            <div class="title" data-swiper-parallax="-300">
+              Sergeant | Official Teaser
+            </div>
+            <button class="btn">Watch</button>
+            <img src="./images/img-6.jpg" alt="img" />
+          </div>
+          <div class="swiper-slide">
+            <div class="title" data-swiper-parallax="-300">Bhediya</div>
+            <button class="btn">Watch</button>
+            <img src="./images/img4.jpg" alt="img" />
+          </div>
+          <div class="swiper-slide">
+            <div class="title" data-swiper-parallax="-300">
+              IIFA Awards 2023
+            </div>
+            <button class="btn">Watch</button>
+            <img src="./images/img5.jpg" alt="img" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- Hero section ends -->
+
+    <!-- Hot right now section starts -->
+
+    <section class="w-full max-xl py-3 pl-5">
+      <p class="text-white text-3xl font-bold py-2">Hot Right Now 🔥</p>
+      <div class="py-5 flex flex-col md:flex-row gap-2">
+        <div class="md:w-96 w-full mt-3 md:mt-0">
+          <img src="./images/hot1.webp" class="w-full" alt="img" />
+        </div>
+        <div class="md:w-96 w-full mt-3 md:mt-0">
+          <img src="./images/hot2.webp" class="w-full" alt="img" />
+        </div>
+      </div>
+    </section>
+    <!-- Hot right now section ends -->
+
+    <!-- Trending section starts -->
+    <section class="w-full max-xl py-3 pl-5">
+      <p class="text-white text-3xl font-bold py-2">Trending In India</p>
+      <div class="w-full max-w-full flex flex-wrap gap-2 py-5">
+        <div class="w-44 py-2">
+          <img src="./images/asurnew.webp" class="rounded-2xl" alt="img" />
+          <p class="font-bold text-7xl text-center -mt-9">1</p>
+        </div>
+        <div class="w-44 py-2">
+          <img src="./images/trend2.webp" class="rounded-2xl" alt="img" />
+          <p class="font-bold text-7xl text-center -mt-9">2</p>
+        </div>
+        <div class="w-44 py-2">
+          <img src="./images/trend3.webp" class="rounded-2xl" alt="img" />
+          <p class="font-bold text-7xl text-center -mt-9">3</p>
+        </div>
+        <div class="w-44 py-2">
+          <img src="./images/tren4.webp" class="rounded-2xl" alt="img" />
+          <p class="font-bold text-7xl text-center -mt-9">4</p>
+        </div>
+        <div class="w-44 py-2">
+          <img src="./images/trend5.webp" class="rounded-2xl" alt="img">
+          <p class="font-bold text-7xl text-center -mt-9">5</p>
+       </div>
+       <div class="w-44 py-2">
+        <img src="./images/tren6.jpg" class="rounded-2xl" alt="img">
+        <p class="font-bold text-7xl text-center -mt-9">6</p>
+     </div>
+     <div class="w-44 py-2">
+      <img src="./images/trend7.webp" class="rounded-2xl" alt="img">
+      <p class="font-bold text-7xl text-center -mt-9">7</p>
+   </div>
+   <div class="w-44 py-2">
+    <img src="./images/trend8.webp" class="rounded-2xl" alt="img">
+    <p class="font-bold text-7xl text-center -mt-9">8</p>
+ </div>
+      </div>
+    </section>
+  </body>
 </html>
