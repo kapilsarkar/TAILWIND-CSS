@@ -4,4 +4,4 @@
 
 ### PROJECT IS RESPONSIVE
 
-![LIVE LINK](https://jio-cinemaclonekapilsarkar.netlify.app/)
+[LIVE LINK](https://jio-cinemaclonekapilsarkar.netlify.app/)
