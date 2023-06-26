@@ -1,17 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kolkata Knight Riders</title>
-    <link rel="stylesheet" href="./dist/output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./dist/output.css" />
+    
+   
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"
+    defer
+  ></script>
+  <link rel="stylesheet" href="./slider.css">
+  <script src="./script.js" defer></script>
+  </head>
+  <body>
     <!-- Header section starts -->
-    <section class="w-full h-14 px-5 py-9 bg-violet-900 text-white flex">
-         <div class="w-14 -mt-5">
-            <img src="./images/logo (1).svg" class="" alt="">
-         </div>
+    <section
+      class="w-full fixed h-14 px-5 py-9 bg-violet-900 text-white flex gap-2 items-center justify-between backdrop-blur-sm z-10"
+    >
+      <div class="w-14 mt-1 fixed z-30">
+        <img src="./images/logo (1).svg" class="" alt="" />
+      </div>
+      <nav class="w-full px-3 hidden media1100:block translate-x-1 lg:space-x-2">
+        <a class="font-bold pl-2" href="#">FIXTURES & RESULTS</a>
+        <a class="font-bold pl-2" href="#">STANDINGS</a>
+        <a class="font-bold pl-2" href="#">MEDIA</a>
+        <a class="font-bold pl-2" href="#">MEGASTORE</a>
+        <a class="font-bold pl-2" href="#">STATS</a>
+        <a class="font-bold pl-2" href="#">NEWS</a>
+        <a class="font-bold pl-2" href="#">PLAYERS</a>
+        <a class="text-yellow-500 border-2 border-yellow-500 p-2 ml-1" href="#"
+          >DOWNLOAD OUR KNIGHT CLUB APP</a
+        >
+        
+      </nav>
+      <div class="flex gap-3">
+        <img src="./images/search.svg" class=""  alt="img" />
+        <img src="./images/user.svg" class="w-5" alt="img"/>
+      </div>
+      <div class="media1100:hidden text-4xl">
+        <button class="">≡</button>
+      </div>
     </section>
-</body>
+     <!-- Header section ends -->
+
+      <!-- Hero section starts -->
+      <section class="w-full">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="title text-white" data-swiper-parallax="-300">THE KNIGHTS LEGACY:UNLEASHING YOUNG TALENT IN THE IPL AND BEYOND</div>
+                <img src="./images/sld1.jpeg" alt="img1">
+              </div>
+              <div class="swiper-slide">
+                <div class="title text-white" data-swiper-parallax="-300">KNIGHTS OF 2023 | TATA IPL 2023</div>
+                <img src="./images/sld2.jpg" alt="img">
+              </div>
+              <div class="swiper-slide">
+                <div class="title text-white" data-swiper-parallax="-300">KKR FANS RALLY | TATA IPL 2023</div>
+                <img src="./images/sld3.jpg" alt="img">
+              </div>
+              <div class="swiper-slide">
+                <div class="title text-white" data-swiper-parallax="-300">RINKU SINGH'S POST MATCH CONFERENCE | KKR V LSG | TATA IPL 2023</div>
+                <img src="./images/sld4.jpg" alt="img">
+              </div>
+              <div class="swiper-slide">
+                <div class="title text-white" data-swiper-parallax="-300">ONCE A KNIGHT, ALWAYS A KNIGHT | TATA IPL 2023</div>
+                <img src="./images/sld5.jpg" alt="img">
+              </div>
+              
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </section>
+      <!-- Hero section ends -->
+  </body>
 </html>
