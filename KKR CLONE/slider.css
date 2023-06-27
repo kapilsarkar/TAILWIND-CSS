@@ -34,9 +34,30 @@
     padding: 2rem;
     border-radius: 1rem;
   }
+  .swiper-slide .title2 {
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    margin-top: 30rem;
+    background-color: #563089;
+    border-top: 2px solid #3b215d;
+    padding: 2rem;
+    
+  }
+  .swiper-slide .para2{
+    color:#ddab16;
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
  @media (max-width:500px){
   .swiper-slide .title{
     font-size: 24px;
   }
  
  }
+
+ 
+ 
+ 
