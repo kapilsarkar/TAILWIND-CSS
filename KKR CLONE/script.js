@@ -3,10 +3,10 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     effect: "fade",
     parallax: true,
-    // autoplay: {
-    //   delay: 2500,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -24,10 +24,10 @@ var swiper = new Swiper(".mySwiper", {
   var swiper2 = new Swiper(".mySwiper2", {
     slidesPerView: 1,
     spaceBetween: 10,
-    //  autoplay: {
-    //   delay: 1500,
-    //   disableOnInteraction: false,
-    // },
+     autoplay: {
+      delay: 1500,
+      disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
