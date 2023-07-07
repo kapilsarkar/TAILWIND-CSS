@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FC Barcelona Clone</title>
-    <link rel="stylesheet" href="./dist/output.css">
-</head>
-<body>
-    <h1 class="bg-black text-white">FC Barcelona Clone</h1>
-</body>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Front Header Section Starts -->
+    <section class="w-full bg-black text-white p-3">
+      <div class="flex items-center gap-5">
+        <span
+          class="bg-blue-800 text-white font-bold p-2 rounded-2xl text-center ml-14 hidden lg:block"
+          >Win the new jersey! Sign up for free and enter the draw 🔵🔴</span
+        >
+        <span class="text-yellow-500 p-2 font-bold text-center hidden lg:block"
+          >TAKE PART</span
+        >
+        <div class="hidden md:block">
+          <div class="flex gap-5 pl-10 md:ml-1">
+            <div class="flex mr-5 items-center justify-center">
+              <img src="./images/user.png" class="w-6" alt="user" /><span
+                class="text-white px-2 font-bold"
+                >Login</span
+              >
+            </div>
+            <button class="bg-red-600 text-white font-bold px-5 py-3 flex">
+              <img
+                src="./images/icon-white.png"
+                class="w-10"
+                alt="white-logo"
+              />Register
+            </button>
+            <span
+              class="text-white font-bold rounded-full hover:bg-red-600 cursor-pointer bg-slate-900 p-3"
+              >EN</span
+            >
+            
+          </div>
+        </div>
+        <div class="block md:hidden mx-auto">
+          <div class="flex gap-2">
+            <button class="flex gap-3 bg-red-500 px-5 py-2 rounded-md">
+              <img src="./images/user.png" class="w-5" alt="white-logo" />
+              <span class="text-white font-bold">Login</span>
+            </button>
+            <div class="text-2xl flex bg-slate-700 p-1 rounded-xl">≡</div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Front Header Section Ends -->
+
+      <!-- Menu Header Section Starts -->
+
+      <section class="w-full bg-black text-white p-3 ">
+        <div class="flex">
+            <div class="w-52 mt-3 ">
+                <img src="./images/logo.png" alt="main-logo">
+            </div>
+            <nav class="flex items-center justify-center gap-9">
+               <a href="#" class="font-bold">FIRST TEAM</a>
+               <a href="#" class="font-bold">CLUB</a>
+               <a href="#" class="font-bold">BARCA TEAMS</a>
+            </nav>
+            <nav class="flex items-center justify-between gap-9 px-16">
+                <a href="#" class="text-sm md:font-bold text-yellow-300"><i class="fa-solid fa-ticket " style="color: #e5c110;"></i> <span class="text-sm md:font-bold text-yellow-300 pl-1">TICKETS & MUSEUM</span></a>
+               <a href="#" class="font-bold text-yellow-300"><i class="fa-sharp fa-solid fa-shirt " style="color: #e5c110;"></i><span class="font-bold text-yellow-300 pl-1">SHOP</span></a>
+               <a href="#" class="font-bold text-yellow-300"><i class="fa-thin fa-binoculars" style="color: #e5c110;"></i><span class="font-bold text-yellow-300 pl-1">CULERS</span></a>
+               <i class="fa-solid fa-magnifying-glass"></i>
+               </nav>
+               
+        </div>
+           
+               
+            
+      </section>
+  </body>
 </html>
