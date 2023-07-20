@@ -2,6 +2,7 @@
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-inline: 2rem;
   }
 
   .swiper-slide {
@@ -27,6 +28,25 @@
     border-radius: 1rem;
     background-color: rgba(0, 0, 0, 0.313);
     font-family: sans-serif;
+  }
+
+  .swiper-slide .title2 {
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    margin-top: -5.5rem;
+    color: #fff; 
+    margin-left:5rem;
+    padding: 2rem;
+    
+    
+  }
+  .swiper-slide .para2{
+    color: #fff;;
+    font-size: 16px;
+    font-weight: 500;
+    
   }
 
   @media (max-width:560px){
