@@ -1,3 +1,3 @@
 # FC BARCELONA LANDING PAGE CLONE--
 
-![LIVE LINK]()
+![LIVE LINK](https://fcbarcelonaclonekapilsarkar.netlify.app/)
