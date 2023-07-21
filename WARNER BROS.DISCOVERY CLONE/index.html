@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Warner Bros.Discovery</title>
     <link rel="stylesheet" href="./dist/output.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   </head>
   <body>
     <!-- Header Section Starts -->
-    <section class="w-full bg-blue-900 py-14 text-white flex fixed">
-      <img src="./images/logo-warner.svg" class="w-40 vmedia360:w-56 pl-5" alt="logo" />
+    <section class="w-full bg-blue-900 py-14 text-white flex fixed backdrop-blur-sm z-10">
+      <img src="./images/logo-warner.svg" class="w-40 media360:w-56 pl-5" alt="logo" />
       <div class="pt-3 pl-10 hidden media1220:block">
         <nav class="flex items-center justify-center gap-5">
           <a href="#" class="font-bold">Our Leadership</a>
@@ -20,11 +27,36 @@
           <a href="#" class="font-bold">Investor Relations</a>
         </nav>
       </div>
-         <div class="mx-auto flex">
+         <div class="ml-auto mr-5 flex">
             <span class="font-bold">WBD <br>13.28</span>
             <button class=" text-xl media360:text-5xl pl-2 media1220:hidden">≡</button>
          </div>
          
     </section>
+     <!-- Header Section Ends -->
+
+      <!-- Video Background Section Starts -->
+
+      <section class="w-full pt-48 bg-blue-900 md:pt-24">
+        <video src="./video/discovery1.mp4" muted loop autoplay></video>
+      </section>
+      <!-- Video Background Section Ends -->
+
+      <!-- Our Company Section Starts -->
+
+      <section class="w-full py-5 bg-blue-950 bg-[url('../images/warener-bg-hero.svg')] bg-contain bg-no-repeat bg-right-top">
+
+        <div class="py-3 flex pl-10">
+             <div class="w-[48rem]">
+                 <h2 class="font-bold text-[#9000e8] py-3 text-5xl">Our Company</h2>
+                 <p class="text-white font-bold py-2 leading-10 text-xl">Warner Bros. Discovery, a premier global media and entertainment company, offers audiences the world's most differentiated and complete portfolio of content, brands and franchises across television, film, streaming and gaming. The new company combines WarnerMedia's premium entertainment, sports and news assets with Discovery's leading non-fiction and international entertainment and sports businesses.</p>
+             </div>
+             <div class="flex items-center justify-center pl-3">
+              <p class="text-white font-bold  text-xl px-5 py-2 rounded-3xl border-solid border-2 border-white">View All Brands <i class="fa-solid fa-arrow-right" style="color: #c2c9d6;"></i> </p>
+             </div>
+            
+        </div>
+        
+      </section>
   </body>
 </html>
