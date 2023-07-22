@@ -1,3 +1,3 @@
 # WARNER BROS DISCOVERY CLONE
 
-[LIVE LINK]()
+[LIVE LINK](https://warnerbrosdiscoverycloneks.netlify.app/)

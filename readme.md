@@ -15,3 +15,5 @@
 1. `PROJECT-3`  SHOE COMPANY FIGMA DESIGN LANDING PAGE :file_folder::file_folder::arrow_right: [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-CSS/tree/main/SHOE%20COMPANY) :clapper::clapper::arrow_right:  [LIVE LINK](https://kapilsarkarshoecompany.netlify.app/)
 
 1. `PROJECT-4`  CLONE OF KKR LANDING PAGE :file_folder::file_folder::arrow_right: [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-CSS/tree/main/KKR%20CLONE) :clapper::clapper::arrow_right:  [LIVE LINK](https://kkrclonekapilsarkar.netlify.app/)
+
+. `PROJECT-5`  WARNER-BROS DISCOVERY CLONE LANDING PAGE :file_folder::file_folder::arrow_right: [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-CSS/tree/main/WARNER%20BROS.DISCOVERY%20CLONE) :clapper::clapper::arrow_right:  [LIVE LINK](https://warnerbrosdiscoverycloneks.netlify.app/)
