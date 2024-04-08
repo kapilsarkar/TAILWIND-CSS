@@ -522,9 +522,27 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-slate-950 {
+.max-w-\[1440px\] {
+  max-width: 1440px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .text-white {
