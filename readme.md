@@ -15,7 +15,7 @@
 
 1. `PROJECT-3`  FC BARCELONA LANDING PAGE :file_folder::arrow_right: [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-CSS/tree/main/BARCELONA%20CLONE) :clapper::arrow_right:  [LIVE LINK](https://fcbarcelonaclonekapilsarkar.netlify.app/)
 
-1. `PROJECT-4`  SHOE COMPANY FIGMA DESIGN LANDING PAGE :file_folder::arrow_right: [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-CSS/tree/main/SHOE%20COMPANY) :clapper::clapper::arrow_right:  [LIVE LINK](https://kapilsarkarshoecompany.netlify.app/)
+1. `PROJECT-4`  SHOE COMPANY FIGMA DESIGN LANDING PAGE :file_folder::arrow_right: [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-CSS/tree/main/SHOE%20COMPANY) :clapper::arrow_right:  [LIVE LINK](https://kapilsarkarshoecompany.netlify.app/)
 
 1. `PROJECT-5`  CLONE OF KKR LANDING PAGE :file_folder::arrow_right: [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-CSS/tree/main/KKR%20CLONE) :clapper::arrow_right:  [LIVE LINK](https://kkrclonekapilsarkar.netlify.app/)
 
