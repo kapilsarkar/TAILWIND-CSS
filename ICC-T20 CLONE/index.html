@@ -12,28 +12,37 @@
     <section class="bg-blue-950 w-full p-3">
        <!-- <div class="w-full pt-5"></div> -->
       <div class=" w-full p-3 text-white  min-h-[100vh] rounded-3xl">
-        <div class="w-full p-2 flex flex-wrap gap-5 fixed z-50 backdrop-blur bg-[url('../images/bottom.svg bg-no-repeat')]">
-            <button class="text-5xl">≡</button>
-            <img src="./images/t20-logo-horizontal-light (1).svg" class="w-36" alt="img">
+        <div class="w-full p-2 flex flex-wrap gap-5 fixed z-50 bg-[url('../images/bottom.svg bg-no-repeat')]">
+            <button class=" text-2xl md:text-5xl">≡</button>
+            <img src="./images/t20-logo-horizontal-light (1).svg" class="w-16 sm:w-24 md:w-36" alt="img">
             <span class="text-white mt-3">|</span>
-            <ul class="flex list-none media960px:hidden justify-center gap-1 lg:gap-3 mt-5 font-bold text-[10px]">
-              <li>ICC HOME</li>
-              <li>MATCHES</li>
-              <li>STANDINGS </li>
-              <li>NEWS</li>
+            <div class="hidden media960px:block">
+              <ul class="flex list-none invisible media960px:visible  justify-center gap-1 lg:gap-3 mt-5 font-bold text-[10px]">
+                <li>ICC HOME</li>
+                <li>MATCHES</li>
+                <li>STANDINGS </li>
+                <li>NEWS</li>
+                <li>VIDEOS</li>
+                <li>FAN PASSPORT</li>
+                <li>FANTASY</li>
+                <li>PREDICTOR</li>
+                <li>TICKETING</li>
+                <li>MORE</li>
+              </ul>
+            </div>
+          
+            <ul class="flex list-none invisible media421px:visible media960px:invisible justify-center gap-1 media460px:gap-5 mt-5 font-bold text-[10px]">
               <li>VIDEOS</li>
-              <li>FAN PASSPORT</li>
               <li>FANTASY</li>
-              <li>PREDICTOR</li>
-              <li>TICKETING</li>
-              <li>MORE</li>
+              <li>SHOP</li>
             </ul>
             <ul class="flex list-none absolute right-20 gap-1 lg:gap-3 mt-5 font-bold text-[10px]">
-                <li><i class="fa-solid fa-magnifying-glass" style="color: #fff"></i>&nbsp;SEARCH</li>
+                <li class="invisible media960px:visible"><i class="fa-solid fa-magnifying-glass" style="color: #fff"></i>&nbsp;SEARCH</li>
                 <li><i class="fa-solid fa-user" style="color: #fff" ></i>&nbsp;SIGN IN</li>
             </ul>
          </div>
-         <img src="./images/ggimg2.jpeg" class="w-full static z-10 rounded-3xl" alt="Main"> 
+         <img src="./images/wcc20-1.jpeg" class="w-full static z-10 rounded-3xl" alt="Main"> 
+         <p class="text-white font-bold text-[15px] media480px:text-2xl media600px:text-4xl media980px:text-6xl p-3 z-30 -mt-36 media600px:-mt-52 md:-mt-64 media960px:-mt-72">India return to heroes’ welcome <br> following T20 World Cup triumph</p>
       </div>
         
     </section>
