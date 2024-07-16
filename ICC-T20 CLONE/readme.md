@@ -1,10 +1,10 @@
-## ICC - MEN'S T20 WORLD CUP LANDING PAGE CLONE
+## ICC - MEN'S T20 WORLD CUP 2024 LANDING PAGE CLONE
 
 ### MADE IN TAILWIND CSS
 
 ### PROJECT IS RESPONSIVE
 
-[LIVE LINK]()
+[LIVE LINK](https://icct20clonebykapil.netlify.app/)
 
 ![IMG1](./images/1.png)
 
