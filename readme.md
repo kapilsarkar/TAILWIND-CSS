@@ -7,7 +7,7 @@
 ## ALL PROJECTS ARE RESPONSIVE 
 :computer::desktop_computer::iphone:
 
-1. `PROJECT-1` CLONE OF ICC T20 MEN'S WORLD CUP 2024 LANDING PAGE :file_folder::arrow_right: [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-CSS/tree/main/JIO-CINEMA%20CLONE) :clapper::arrow_right:  [LIVE LINK](https://icct20clonebykapil.netlify.app/)
+1. `PROJECT-1` CLONE OF ICC T20 MEN'S WORLD CUP 2024 LANDING PAGE :file_folder::arrow_right: [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-CSS/tree/main/ICC-T20%20CLONE) :clapper::arrow_right:  [LIVE LINK](https://icct20clonebykapil.netlify.app/)
 
 
 1. `PROJECT-2` CLONE OF JIO-CINEMA LANDING PAGE :file_folder::arrow_right: [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-CSS/tree/main/JIO-CINEMA%20CLONE) :clapper::arrow_right:  [LIVE LINK](https://jio-cinemaclonekapilsarkar.netlify.app/)
